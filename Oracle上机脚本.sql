@@ -1,4 +1,4 @@
---Ô±¹¤±í
+--å‘˜å·¥è¡¨
 create table EMP
 (
 empno NUMBER(4) primary key,
@@ -40,7 +40,7 @@ values (7902, 'FORD', 'ANALYST', 7566, to_date('03-12-1981', 'dd-mm-yyyy'), 3000
 insert into EMP (empno, ename, job, mgr, hiredate, sal, comm, deptno)
 values (7934, 'MILLER', 'CLERK', 7782, to_date('23-01-1982', 'dd-mm-yyyy'), 1300, null, 10);
 
---²¿ÃÅ±í
+--éƒ¨é—¨è¡¨
 create table DEPT
 (
 deptno NUMBER(2) primary key,
@@ -50,15 +50,15 @@ loc VARCHAR2(13)
 
 
 insert into DEPT (deptno, dname, loc)
-values (10, '²ÆÎñ', 'NEW YORK');
+values (10, 'è´¢åŠ¡', 'NEW YORK');
 insert into DEPT (deptno, dname, loc)
-values (20, 'ÑĞ·¢', 'DALLAS');
+values (20, 'ç ”å‘', 'DALLAS');
 insert into DEPT (deptno, dname, loc)
-values (30, 'ÏúÊÛ', 'CHICAGO');
+values (30, 'é”€å”®', 'CHICAGO');
 insert into DEPT (deptno, dname, loc)
-values (40, 'ÔËÓª', 'BOSTON');
+values (40, 'è¿è¥', 'BOSTON');
 
---¹¤×ÊµÈ¼¶±í
+--å·¥èµ„ç­‰çº§è¡¨
 create table SALGRADE
 (
 GRADE NUMBER,
@@ -71,7 +71,7 @@ INSERT INTO SALGRADE VALUES (3, 1401, 2000);
 INSERT INTO SALGRADE VALUES (4, 2001, 3000);
 INSERT INTO SALGRADE VALUES (5, 3001, 9999);
 
---½±½ğ±í
+--å¥–é‡‘è¡¨
 create table BOUNS
 (
 ENAME VARCHAR2(10),
